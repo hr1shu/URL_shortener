@@ -55,8 +55,8 @@ def short_url():
 
 
 #click button to short url
-btn = Button(window, text="Short Url", padx=8, pady=4, bg="#2ecc71", fg="#fff", font=("Helvetica","16"), activebackground="#16a085", command=short_url)
-btn.grid(row=2, column=2, pady=6)
+btn = Button(window, text="Short Url", padx=10, pady=46, bg="#2ecc71", fg="#fff", font=("Helvetica","18"), activebackground="#16a085", command=short_url)
+btn.grid(row=2, column=2, pady=8)
 
 window.mainloop()
 
